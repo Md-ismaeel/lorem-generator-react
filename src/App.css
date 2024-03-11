@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body {
+  background-color: #2B2B2B;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.head {
+  font-size: 30px;
+  margin-top: 1rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.para {
+  font-size: 20px;
+  margin-top: 1rem;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3rem;
+}
+
+.input {
+  outline: 0;
+  width: 3rem;
+  height: 1.8rem;
+  font-size: 12px;
+  padding-left: 10px;
+  border-radius: 2px;
+  font-size: 18px;
+  border: 0;
+}
+
+button {
+  width: 10rem;
+  height: 1.9rem;
+  border: 0;
+  background: hsl(39, 100%, 50%);
+  color: white;
+  font-size: 15px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+button:active {
+  background: hsl(39, 100%, 40%);
+}
+.paraDiv {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFE6D6;
+  margin-bottom: 2rem;
+}
+
+.paraDiv p {
+  padding: 1rem;
+  color: #B0840B;
 }
